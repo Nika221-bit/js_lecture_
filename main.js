@@ -206,3 +206,32 @@ for(let i = 1;i < str.length;i++){
     console.log(str[i])
   }
 }
+
+//დავალება 19
+
+let evens = [
+    [1,2,3,4,5],
+    [6,7,8,9,10],
+    [11,12,13,14,15]
+];
+
+for(let i = 0; i < evens.length; i++){
+  for(let j = 0; j < evens[i].length; j++){
+    if(evens[i][j] % 2 === 0){
+      console.log(evens[i][j]);
+    }
+  }
+}
+
+//დავალება 20
+
+function string(arr5){
+  for(let i = 0;i < arr5.length;i++){
+    if(typeof arr5[i] === "string"){
+      console.log(arr5[i]);
+    }
+  }
+}
+let mixed = [1, "hello", true, "world", 42, "JavaScript"];
+string(mixed);
+
