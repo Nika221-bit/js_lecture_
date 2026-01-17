@@ -169,7 +169,7 @@ console.log(sum1)
 
 const nums = [15,65,62,23,46,22]
 let max = Math.max(...nums)
-console.log(max)
+console.log(max);
 
 //დავალება 16
 
